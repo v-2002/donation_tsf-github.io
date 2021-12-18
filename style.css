@@ -1,0 +1,81 @@
+.heading {
+    width: auto ;
+    border: 1px solid rgb(10, 10, 10);
+    padding: 15px;
+    margin: 0px;
+    background-color: gray;
+    color: white;
+    position: static;
+    text-align: justify;
+}
+
+#heading1{
+    padding: 10px;
+    size: 50px;
+    font-size: 35px;
+    text-align: left;
+    text-shadow: 2px 2px black;
+    
+}
+
+#heading2{
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-size: 30px;
+    display: inline-block;
+
+}
+#heading2.link {
+    color: rgb(68, 116, 248);
+}
+#heading2.hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+#image{
+    width: 1330px;
+    height: 501px;
+    opacity: 0.4;
+}
+
+p{
+    font-family: 'Corinthia', cursive ;
+    color: rgb(255, 0, 0);
+    font-size: 41px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-550px, -90px);
+    
+    
+}
+
+#button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( 100px, 0px);
+    background-color: white;
+    text-decoration: none;
+    color:  black;
+    border: 2px black solid;
+    font-size: 25px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.donate-para{
+    font-family: 'Corinthia', cursive;
+    position: absolute;
+}
+
+.about_para{
+    font-family: 'Open Sans', sans-serif;
+}
+.conn_para{
+    font-family: 'Montserrat', sans-serif;
+}
